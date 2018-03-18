@@ -102,8 +102,9 @@ macro_rules! __trail {
 
 #[cfg(test)]
 mod tests {
+    use std::path::Path;
+
     #[test]
-    #[cfg(windows)]
     fn trail() {
         if cfg!(windows) {
             assert_eq!(trail!(), Path::new(""));
