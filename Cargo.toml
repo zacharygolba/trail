@@ -1,0 +1,13 @@
+[package]
+name = "trail"
+version = "0.1.0"
+authors = ["Zachary Golba <zachary.golba@postlight.com>"]
+categories = ["filesystem", "os"]
+description = "Build cross-platform paths at compile time."
+documentation = "https://docs.rs/trail/0.1"
+keywords = ["cross-platform", "file", "macro", "path"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/zacharygolba/trail"
+
+[dependencies]
