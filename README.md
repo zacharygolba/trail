@@ -18,14 +18,11 @@ Next, add the following snippet to the entry point of your crate (`lib.rs` or `m
 ```rust
 #[macro_use]
 extern crate trail;
-#
-# fn main() {}
 ```
 
 ## Usage
 
-You can also use [`trail!`] anywhere else an expression is expected. The expanded output
-is functionally equivelant to calling [`Path::new`] with a hard coded literal.
+You can also use `trail!` anywhere else an expression is expected. The expanded output is functionally equivelant to calling `Path::new` with a hard coded literal.
 
 *Posix*
 
